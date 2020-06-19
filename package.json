@@ -1,0 +1,86 @@
+{
+  "name": "meetui",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.9.14",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/lab": "^4.0.0-alpha.54",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "connected-react-router": "^6.8.0",
+    "formik": "^2.1.4",
+    "history": "^4.10.1",
+    "jwt-decode": "^2.2.0",
+    "material-table": "^1.58.2",
+    "normalizr": "^3.6.0",
+    "react": "^16.13.1",
+    "react-calendar": "^3.1.0",
+    "react-dom": "^16.13.1",
+    "react-redux": "^7.2.0",
+    "react-router": "^5.2.0",
+    "react-router-config": "^5.1.1",
+    "react-router-dom": "^5.2.0",
+    "react-router-redux": "^4.0.8",
+    "react-scripts": "3.4.1",
+    "redux": "^4.0.5",
+    "redux-api-middleware": "^3.2.1",
+    "redux-logger": "^3.0.6",
+    "redux-observable": "^1.2.0",
+    "redux-promise": "^0.6.0",
+    "redux-router": "^2.1.2",
+    "redux-thunk": "^2.3.0",
+    "redux-thunk-recursion-detect": "^1.1.4",
+    "typesafe-actions": "^5.1.0",
+    "typescript": "^3.9.3",
+    "typescript-fsa": "^3.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "prod": "npx webpack --mode production",
+    "build": "npx webpack --mode development",
+    "react-build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/history": "^4.7.5",
+    "@types/jest": "^25.2.3",
+    "@types/jwt-decode": "^2.2.1",
+    "@types/material-ui": "^0.21.7",
+    "@types/node": "^14.0.4",
+    "@types/react": "^16.9.35",
+    "@types/react-calendar": "^3.0.1",
+    "@types/react-dom": "^16.9.8",
+    "@types/react-redux": "^7.1.9",
+    "@types/react-router": "^5.1.7",
+    "@types/react-router-dom": "^5.1.5",
+    "@types/redux": "^3.6.0",
+    "@types/redux-api-middleware": "^3.2.1",
+    "@types/redux-logger": "^3.0.7",
+    "@types/redux-thunk": "^2.1.0",
+    "css-loader": "^3.5.3",
+    "file-loader": "^6.0.0",
+    "redux-devtools-extension": "^2.13.8",
+    "source-map-loader": "^0.2.4",
+    "ts-loader": "^7.0.4",
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11"
+  }
+}
